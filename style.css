@@ -18,7 +18,10 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Space between the title and nav */
+  align-items: center; /* Align items vertically */
+  padding: 20px 40px; /* Add padding to the sides */
 }
 
 /* Containers */
@@ -52,7 +55,12 @@ a:hover {
 }
 
 nav a {
-  padding-left: 20px;
+  margin-right: 20px; /* Add right margin to each nav link */
+  text-decoration: none; /* Optional: removes underline from links */
+}
+
+nav a:last-child {
+  margin-right: 0; /* Removes margin from the last link */
 }
 
 /* Images */
