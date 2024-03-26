@@ -18,10 +18,23 @@ h3 {
 
 /* Header */
 header {
-  display: flex; /* Enable flexbox layout */
-  justify-content: space-between; /* Space between the title and nav */
-  align-items: center; /* Align items vertically */
-  padding: 20px 40px; /* Add padding to the sides */
+  text-align: center;
+}
+
+.group{
+  display: flex;
+  flex-direction: row;
+}
+
+.item{
+  text-align: right;
+  flex:1;
+}
+.itemtwo{
+    flex: 1;
+    text-align: left;
+    margin: auto;
+    padding-left: 15px;
 }
 
 /* Containers */
@@ -55,12 +68,7 @@ a:hover {
 }
 
 nav a {
-  margin-right: 20px; /* Add right margin to each nav link */
-  text-decoration: none; /* Optional: removes underline from links */
-}
-
-nav a:last-child {
-  margin-right: 0; /* Removes margin from the last link */
+  padding-left: 20px;
 }
 
 /* Images */
@@ -83,4 +91,14 @@ footer {
 /* Other page elements */
 hr {
   border: 1px solid black;
+}
+
+.about{
+  text-align: left;
+}
+
+.portfolio{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
 }
