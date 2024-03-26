@@ -18,28 +18,15 @@ h3 {
 
 /* Header */
 header {
-  text-align: center;
-}
-
-.group{
   display: flex;
   flex-direction: row;
-}
-
-.item{
-  text-align: right;
-  flex:1;
-}
-.itemtwo{
-    flex: 1;
-    text-align: left;
-    margin: auto;
-    padding-left: 15px;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Containers */
 div {
-  background-color: #eae2b7;
+  /*background-color: #eae2b7;*//*this line seems to be breaking things*/
   margin: auto;
   width: 600px;
 }
@@ -93,12 +80,20 @@ hr {
   border: 1px solid black;
 }
 
-.about{
+.about {
+  display: flex;
+  align-items: center;
+}
+
+.align-left{
   text-align: left;
 }
 
 .portfolio{
-  text-align: center;
   display: flex;
-  flex-direction: row;
+  text-align: center;
+}
+
+article#portfolio p{
+  font-size: 14px;
 }
