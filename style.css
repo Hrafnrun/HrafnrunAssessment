@@ -1,6 +1,8 @@
 /* The @import rule below imports the Playfair Display and Source Sans Pro fonts into the stylesheet*/
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Source+Sans+Pro:wght@400&display=swap");
 
+/*struggling with spacing and alignment, need to review notes and join help class*/
+
 body {
   background-color: #eae2b7;
   color: #003049;
@@ -8,7 +10,6 @@ body {
   padding: 40px;
 }
 
-/* Headings */
 h1,
 h2,
 h3 {
@@ -16,7 +17,6 @@ h3 {
   text-align: center;
 }
 
-/* Header */
 header {
   text-align: center;
   justify-content: center;
@@ -25,7 +25,7 @@ header {
 ul {
   text-align: left;
 }
-/* Containers */
+
 div {
   background-color: #eae2b7;
   margin: 0 auto;
@@ -56,12 +56,10 @@ article div {
         flex-direction: column;
         justify-content: space-evenly; 
 }
-/* Paragraphs */
 p {
   line-height: 1.5;
   
 }
-/* Links */
 a:link {
   color: #d62828;
 }
@@ -75,7 +73,6 @@ nav a {
   
 }
 
-/* Images */
 img {
   width: 100%;
   max-width: 200px;
@@ -87,13 +84,11 @@ img {
   border-radius: 50%;
 }
 
-/* Footer */
 footer {
   text-align: center;
   justify-content: center;
 }
 
-/* Other page elements */
 hr {
   border: 1px solid black;
 }
